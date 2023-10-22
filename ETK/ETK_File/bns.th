@@ -1,0 +1,15 @@
+# Component list for the Einstein Toolkit <http://einsteintoolkit.org/>
+# $Revision$
+# $Date$
+# $HeadURL$
+
+!CRL_VERSION = 1.0
+
+!INCLUDE = https://bitbucket.org/einsteintoolkit/manifest/raw/ET_2023_05/einsteintoolkit.th
+
+!TARGET   = $ARR
+!TYPE     = git
+!URL      = https://bitbucket.org/knarrff/nstracker.git
+!REPO_PATH = ../../arrangements/$1/../../repos/nstracker
+!CHECKOUT =
+LSUThorns/NSTracker
